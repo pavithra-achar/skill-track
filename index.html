@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillTrack - UX Case Study</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <h1>SkillTrack</h1>
+        <p>A comprehensive platform for tracking and developing professional skills through data-driven insights</p>
+    </section>
+
+    <nav class="navigation">
+        <div class="nav-container">
+            <a href="#overview">Overview</a>
+            <a href="#research">User Research</a>
+            <a href="#analysis">Data Analysis</a>
+            <a href="#task-analysis">Task Analysis</a>
+            <a href="#prototyping">Prototyping</a>
+            <a href="#evaluation">Evaluation</a>
+            <a href="#conclusion">Conclusion</a>
+        </div>
+    </nav>
+
+    <section id="overview" class="section">
+        <h2>Overview</h2>
+        
+        <div class="content-block">
+            <h3>Problem Statement</h3>
+            <p>When faced with the daunting task of deciding their future, many students struggle to understand which career paths align with their interests and strengths, how to build relevant skills, and how to showcase their potential to employers beyond grades or resumes.
+Despite access to online learning platforms and job portals, students often face three major challenges:
+<ol class="problem_list">
+    <li>Information Overload: Too many unstructured choices without personalized guidance.</li>
+    <li>Lack of Ongoing Support: Limited mentorship and motivation during their skill development journey.</li>
+    <li>Visibility Gap: Employers struggle to see a student’s growth, leadership potential, and adaptability — qualities not reflected in traditional resumes.</li>
+</ol>
+<br/>
+This results in uncertainty, mismatched career choices, and missed opportunities for both students and employers.
+</p>
+        </div>
+
+        <div class="content-block solution">
+            <div class="card_blur">
+                <h3>Solution</h3>
+            <p>SkillTrack is an intelligent web platform that helps students discover and pursue career paths by generating personalized learning plans with recommended courses, certifications, and internships based on their interests and aspirations and offers a professional, data-driven public dashboard that showcases students’ growth, achievements, and leadership potential to prospective employers, creating a seamless ecosystem for learning, reflection, and career visibility.</p>
+            </div>
+            
+        </div>
+
+        <div class="two-column">
+            <div class="card">
+                <h4>Primary User</h4>
+                <p>The primary user of this website was chosen to be <span>students or general learners</span> who wish to : </p>
+                <ul>
+                    <li>Explore career options and choose one that aligns with their interests and skills</li>
+                    <li>Upskill effectively and in sync with the relevant job market</li>
+                    <li>Showcase their potential in a holistic way</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h4>Secondary User</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetur adipiscing elit</li>
+                    <li>Sed do eiusmod tempor incididunt</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="section">
+        <h2>User Research</h2>
+        
+        <div class="content-block">
+            <h3>Research Aims</h3>
+            <p>The main motivation behind conducting user research was to validate the following points :</p>
+            <ul>
+                <li>Understand the challenges students face in exploring careers, upskilling, and showcasing their potential</li>
+                <li>Confirm whether proposed features like AI mentorship, career pathways, and growth dashboards align with real user expectations</li>
+                <li>Determine which aspects of the platform are most valuable to students and employers to focus design efforts effectively</li>
+            </ul>
+        </div>
+
+        <div class="content-block">
+            <h3>Research Methods</h3>
+            <div class="research-grid">
+                <div class="card">
+                    <h4>Interviews</h4>
+                    <p><span class="bold">Two</span> in-depth interviews were conducted with university students to understand their career 
+                        exploration journey. Students shared their struggles with <span class="bold">finding relevant mentors in specialized 
+                        fields, the overwhelming nature of unstructured online learning platforms</span>, 
+                        and the <span class="bold">challenge of showcasing skills that don't fit traditional resume formats</span>. 
+                    
+                </div>
+                <div class="card">
+                    <h4>Survey</h4>
+                    <p><span class="bold">12 responses</span> were collected among students aged 19 - 24 scattered across multiple majors and universities that showed 75% of students feel overwhelmed by scattered career information. With average confidence 
+                        at 3/5, students struggle most with knowing which skills to prioritize and accessing relevant mentorship. </p>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="content-block">
+            <h3>Research Results</h3>
+            <h4>Main Pain Points</h4>
+<ol class="problem_list"><li>Information Overload & Lack of Structure</li>
+
+<ul><li>Students feel overwhelmed by scattered, unorganized career information </li>
+<li>No clear prerequisite pathways for learning</li>
+<li>Difficulty knowing which skills to prioritize or learn first</li>
+<li>Survey shows "too much information and it feels overwhelming" as a top challenge</li>
+</ul>
+<li>
+Access to Relevant Mentors</li>
+
+<ul>
+    <li>Hard to find mentors in specific specializations (e.g., computer graphics)</li>
+<li>Existing mentors often show bias toward their own career paths</li>
+<li>Older mentors' advice feels outdated for current job market conditions</li>
+<li>Strong desire for mentors who graduated 5-10 years ago with recent, relevant experience</li>
+</ul>
+
+<li>Skills That Can't Be Showcased</li>
+
+<ul><li>Resumes limited to technical achievements, often just one soft skill experience</li>
+<li>Personal qualities known only through mentors/peers (e.g., "digging deep into research questions")</li>
+<li>Creative work and hobbies that demonstrate skills but don't fit resume format</li>
+<li>Blender drawings, personal projects that show capability but have no space</li> </ul>
+
+</ol>
+
+<h4>Key Takeaways</h4>
+<ol class="problem_list"><li>Personalized Learning Paths</li>
+
+<ul>
+    <li>Clear, structured progression of skills/courses</li>
+<li>Guidance on what to learn and when</li>
+<li>Understanding prerequisites and dependencies</li>
+</ul>
+
+<li>
+Better Skill Showcasing
+</li>
+<ul>
+    <li>Ways to demonstrate soft skills beyond one resume line</li>
+<li>Platforms to highlight projects and creative work</li>
+<li>Tools to summarize capabilities holistically</li>
+</ul>
+<li>
+Ideal Mentor
+</li>
+<ul>
+<li>Can provide unbiased, holistic views of different specializations</li>
+<li>Offer personalized, field-specific guidance</li>
+<li>Help with practical job application strategies, not just skill development</li>
+</ul>
+
+</ol></p>
+            <div class="placeholder-box images_display">
+                <p>Survey Results Visualization</p>
+                <div class="image-slider">
+    <section class="slider__content">
+        <button type="button" class="slider-control--button prev-button">
+            <svg width="16" height="16" fill="currentColor" class="icon arrow-left-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+            </svg>
+        </button>
+        <main class="image-display"></main>
+        <button type="button" class="slider-control--button next-button">
+            <svg width="16" height="16" fill="currentColor" class="icon arrow-right-circle" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+            </svg>
+        </button>
+    </section>
+    <nav class="slider-navigation">
+        <button class="nav-button" aria-selected="true">
+            <img class="thumbnail" src="./images/survey_image 1.png" alt="Survey Image 1" />
+        </button>
+        <button class="nav-button" aria-selected="false">
+            <img class="thumbnail" src="./images/survey_image 2.png" alt="Survey Image 2" />
+        </button>
+        <button class="nav-button" aria-selected="false">
+            <img class="thumbnail" src="./images/survey_image 3.png" alt="Survey Image 3" />
+        </button>
+        <button class="nav-button" aria-selected="false">
+            <img class="thumbnail" src="./images/survey_image 4.png" alt="Survey Image 4" />
+        </button>
+    </nav>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="analysis" class="section">
+        <h2>Data Analysis</h2>
+        
+        <div class="content-block">
+            <h3>User Personas</h3>
+            <div class="two-column">
+                <div class="persona-card">
+                    <div class="persona-image">👤</div>
+                    <h4>Persona 1: Alex Chen</h4>
+                    <p><strong>Age:</strong> 28 | <strong>Occupation:</strong> Software Developer</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h4 style="margin-top: 1.5rem;">Goals</h4>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                        <li>Sed do eiusmod tempor</li>
+                    </ul>
+                    <h4 style="margin-top: 1.5rem;">Frustrations</h4>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                    </ul>
+                </div>
+                <div class="persona-card">
+                    <div class="persona-image">👤</div>
+                    <h4>Persona 2: Sarah Johnson</h4>
+                    <p><strong>Age:</strong> 35 | <strong>Occupation:</strong> HR Manager</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h4 style="margin-top: 1.5rem;">Goals</h4>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                        <li>Sed do eiusmod tempor</li>
+                    </ul>
+                    <h4 style="margin-top: 1.5rem;">Frustrations</h4>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-block">
+            <h3>Affinity Diagram</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <div class="placeholder-box">
+                Affinity Diagram
+            </div>
+        </div>
+
+        <div class="content-block">
+            <h3>Key User Tasks</h3>
+            <p>From this user research, three key user tasks was decided :</p>
+            <div class="three-column">
+                <div class="card">
+                    <h4>Task 1: Generate a career path</h4>
+                    <p>Given a student's interests, aspirations etc generate a list of career path options or generate courses, 
+certifications and internship roles to support a previously decided career path
+</p>
+                </div>
+                <div class="card">
+                    <h4>Task 2: AI Mentor</h4>
+                    <p>An AI mentor that can answer personalized career path questions </p>
+                </div>
+                <div class="card">
+                    <h4>Task 3: Public profile to be viewed by employers</h4>
+                    <p>A public dashboard that can be viewed by potential employers that shows a student's growth and potential</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="task-analysis" class="section">
+        <h2>Task Analysis</h2>
+        
+        <div class="content-block">
+            <p>Using scenarios, I drew up user task flows for each of the tasks. Each scenario is numbered according to the task it is based on</p>
+            <div class="placeholder-box images_display">
+                <div class="four-column">
+                <div class="card less_padding">
+                    <h4>Scenario 1a</h5>
+                    <p>Maya is a 1st year law student unsure about which specialization to pursue.</p>
+</p>
+                <a target="_blank" href="./task_flows/career_path_taskflow.png">View task flow</a>
+                </div>
+                <div class="card less_padding">
+                    <h4>Scenario 1b</h4>
+                    <p>Daniel has a 1 month long vacation and wants to learn something new that will also help him expand his skill set. </p>
+                    <a target="_blank" href="./task_flows/daniel_vacation_learning_flow.png">View task flow</a>
+                </div>
+                <div class="card less_padding">
+                    <h4>Scenario 2</h4>
+                    <p>Sofia has a very unusual combination of education and interests. She has a degree in UX design but has intensive classical music training. She wants to know if she can combine her interests into a viable career.</p>
+                    <a target="_blank" href="./task_flows/sofia_niche_career_flow.png">View task flow</a>
+                </div>
+                <div class="card less_padding">
+                    <h4>Scenario 3</h4>
+                    <p>Lena, a 3rd year biomedical engineering student showed amazing leadership skills and quick thinking when she helped her team recover from a mishap during a class project. On her resume however, the link to this project only shows the mishap and the solution to it. </p>
+                    <a target="_blank" href="./task_flows/lena_peer_review_flow.png">View task flow</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <section id="prototyping" class="section">
+        <h2>Prototyping</h2>
+
+        <div class="prototype-section">
+            <h3>Sketches & Low Fidelity Prototype</h3>
+            <p>Before developing the hifi prototype, I started by creating a series of conceptual sketches to visualize possible layouts and user flows. After completing the sketches, I reviewed them to identify the weak points in terms of usability, clarity, and flow. These insights guided the creation of the low-fidelity prototype, which served as the foundation for the overall hifi prototype.</p>
+            <ul><li><a target="_blank" href="https://drive.google.com/drive/folders/1PBIfGm9hhj9QNTQWAQLWqsGpiAo9Yaph?usp=sharing"> Link to Sketches</a></li>
+            <li><a target="_blank" href="https://drive.google.com/drive/folders/1_Lc9iO_5pz20ywXCeZe5TOKZH1Rjd_oh?usp=drive_link">Link to lofi-prototype</a></li>
+            </ul>
+        </div>
+
+        <div class="prototype-section">
+            <h3>High Fidelity Prototype</h3>
+            <p>After finalizing the lofi prototype, I moved on to developing the hifi prototype. This stage focused on visual hierarchy, color palette, typography, and interactive elements. I used Figma to translate the wireframes into interactive screens that reflected the intended user experience, accurately.</p>
+            <ul><li><a target="_blank" href="https://www.figma.com/proto/J395jc3zwYWcS4uBTVfFOB/Untitled?node-id=0-1&t=KsGRVM2f8ULyGhZc-1"> Link to hifi prototype</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="evaluation" class="section">
+        <h2>Evaluation</h2>
+        
+        <div class="content-block">
+            <h3>Nielsen's 10 Heuristic Evaluation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames.</p>
+            <div class="heuristic-list">
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="heuristic-item">
+                    <h4 class="num">3.</h4> 
+                    <div>
+                        <h4>User Control and Freedom</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-block" style="margin-top: 3rem;">
+            <h3>Usability Testing and Findings</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+            
+            <div class="two-column" style="margin-top: 2rem;">
+                <div class="card">
+                    <h4>Testing Method</h4>
+                    <ul>
+                        <li>Participants: 8 users</li>
+                        <li>Duration: 30-45 minutes</li>
+                        <li>Tasks: 5 core scenarios</li>
+                        <li>Success rate: 87%</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h4>Key Findings</h4>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet consectetur</li>
+                        <li>Pellentesque habitant morbi tristique</li>
+                        <li>Vestibulum tortor quam feugiat vitae</li>
+                        <li>Donec eu libero sit amet quam</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="conclusion" class="section">
+        <h2>Conclusion</h2>
+        
+        <div class="content-block">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.</p>
+            
+            <p>Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.</p>
+        </div>
+
+        <div class="content-block">
+            <h3>Key Takeaways</h3>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor</li>
+                <li>Pellentesque habitant morbi tristique senectus et netus et malesuada fames turpis</li>
+                <li>Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet ante donec</li>
+                <li>Donec eu libero sit amet quam egestas semper aenean ultricies mi vitae est mauris</li>
+            </ul>
+        </div>
+
+        <div class="content-block">
+            <h3>Future Directions</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.</p>
+        </div>
+    </section>
+    <script src="script.js"></script> 
+    <script src="Slider.js"></script> 
+</body>
+</html>
