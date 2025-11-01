@@ -38,7 +38,7 @@ class Slider {
         this.navButtons.forEach((button, buttonIndex) => {
             const isSelected = buttonIndex === this.currentSlideIndex;
             button.setAttribute("aria-selected", isSelected);
-            if (isSelected) button.focus();
+            if (isSelected) button.focus({ preventScroll: true });
         });
     }
 
