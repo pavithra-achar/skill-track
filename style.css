@@ -808,3 +808,15 @@
   transform: translateY(1.5rem);
   border-radius: 2.5rem;
 }
+
+.aff{
+  align-items: flex-start;
+}
+.aff img {
+  height : 600px;
+}
+
+.aff ol {
+  margin-left: 60px;
+  text-align: left;
+}
